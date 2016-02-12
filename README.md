@@ -1,6 +1,7 @@
 # dotfiles
 
 This repository is contained my dotfiles.
+なんちゃって管理
 
 # Installation
 
