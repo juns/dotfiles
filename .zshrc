@@ -11,7 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-export PATH=/usr/local/bin:~/bin:$PATH
+export PATH=/usr/local/bin:~/bin:/sbin:$PATH
 export EDITOR=vim
 autoload -U compinit
 compinit -u

@@ -11,8 +11,8 @@ fi
 
 setopt EXTENDED_GLOB
 for rcfile in $HOME/.zprezto/runcoms/^README.md(.N); do
-  echo "update-symbolic-link: => $rcfile"
-  ln -sf "$rcfile" "$HOME/.${rcfile:t}"
+    echo "update-symbolic-link: => $rcfile"
+    ln -sf "$rcfile" "$HOME/.${rcfile:t}"
 done
 
 ############################################################
