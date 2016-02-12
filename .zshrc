@@ -12,3 +12,4 @@ fi
 
 # Customize to your needs...
 export PATH=/usr/local/bin:~/bin:$PATH
+export EDITOR=vim
