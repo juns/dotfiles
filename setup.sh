@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # List of symlinks.
-SYMLINK_LIST=( ".vimrc" ".gitconfig" ".zshrc" )
+SYMLINK_LIST=( ".gvimrc" ".vimrc" ".gitconfig" ".zshrc" )
 
 ############################################################
 # install zprezto
