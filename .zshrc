@@ -16,11 +16,13 @@ export EDITOR=vim
 autoload -U compinit
 compinit -u
 
-case ${OSTYPE} in 
-    darwin*)
-        export PYENV_ROOT=$HOME/.pyenv
-        export PATH=$PYENV_ROOT/bin:$PATH
-        eval "$(pyenv init -)"
-        ;;
-esac
+alias man='LANC=C man'
+
+#case ${OSTYPE} in 
+#    darwin*)
+#        export PYENV_ROOT=$HOME/.pyenv
+#        export PATH=$PYENV_ROOT/bin:$PATH
+#        eval "$(pyenv init -)"
+#        ;;
+#esac
 
